@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 
 import type { Staff } from "@shared/types";
 
-import { filterByTreatment } from "../utils";
+import { filterByTreatment } from "../utils"; 
 
 import { axiosInstance } from "@/axiosInstance";
 import { queryKeys } from "@/react-query/constants";
